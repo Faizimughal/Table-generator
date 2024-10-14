@@ -5,6 +5,7 @@ function table() {
   let span = document.getElementById("number");
   span.innerHTML = number;
   let output = document.getElementById("output");
+  output.innerHTML = "";
   for (let i = 1; i <= 10; i++) {
     let result = number * i;
     output.innerHTML += number + " x " + i + " = " + result + "<br>";
