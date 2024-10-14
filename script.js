@@ -9,4 +9,9 @@ function table() {
     let result = number * i;
     output.innerHTML += number + " x " + i + " = " + result + "<br>";
   }
+  if (output.innerHTML.trim() === " ") {
+    output.style.border = "none";
+  } else {
+    output.style.border = "2px solid rgb(212, 38, 67)";
+  }
 }
